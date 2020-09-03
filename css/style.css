@@ -4,6 +4,7 @@ aside{
     flex-direction: column;
     display: flex;  
     background-color: #f44336;
+    max-width: 100%;
 }
 
 #profil img{
@@ -67,6 +68,9 @@ aside{
 }
 /* Partie blanche */
 
+#partieDroite{
+    max-width: 100%;
+}
 #titre{
     display: flex;
     flex-wrap: wrap;
@@ -155,7 +159,7 @@ aside{
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    margin-left: 70px;
+    margin-left: 50px;
 }
 .contenu h2, .contenu p{
     margin: 0;
@@ -168,5 +172,107 @@ aside{
     text-decoration: none;
     color: #9E9E9E;
 }
+
+/* MediaQueries */
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/*Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+      #titre{
+          flex-direction: column;
+          align-content: center;
+      }
+      #recoContainer{
+          display: flex;
+          margin-bottom: 30px;
+      }
+      .contenu{
+          margin-left: 70px;
+      } 
+
+}
+
+/* ----------- Autres ----------- */
+
+@media only screen 
+  and (min-device-width: 466px) 
+  and (max-device-width: 770px) 
+  and (-webkit-min-device-pixel-ratio: 2){
+      #titre{
+          flex-direction: column;
+          align-content: center;
+      }
+      #recoContainer{
+          display: flex;
+          margin-bottom: 30px;
+      }      
+  }
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/*Landscape */
+@media only screen 
+  and (min-device-width: 736px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+        .dates{
+            margin-left: 50px;
+        }
+}
+
+/* ----------- iPhone X ----------- */
+
+/*Landscape */
+@media only screen 
+  and (min-device-width: 812px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+        .dates{
+            margin-left: 80px;
+        }
+        #recoContainer{
+            justify-content: center;
+            display: flex;
+            margin-bottom: 20px;
+        }
+        #titre{
+          flex-direction: column;
+          align-content: center;
+       }
+}
+
+/* ----------- "iPad" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+        #titre{
+          flex-direction: column;
+          align-content: center;
+       }
+        #recoContainer{
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .dates{
+            margin-left: 80px;
+        }
+        .contenu{
+            margin-left: 150px;
+        }
+
+}
+
+
 
 
