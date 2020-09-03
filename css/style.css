@@ -65,4 +65,108 @@ aside{
     justify-content: center;
     margin-bottom: 15px;
 }
+/* Partie blanche */
+
+#titre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#titre span{
+    margin-right: 10px;
+    color: #f44336;
+}
+
+#titre h1{
+    margin-bottom: 0;
+    font-size: 1.9rem;
+}
+
+#titre h2{
+    color: #9E9E9E;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#trait{
+    border-bottom: 2px solid #f44336;
+    width: 60px;
+    margin-top: 0;
+    margin-right: 215px;
+}
+.entete{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #f44336;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.entete i{
+    color: #f44336;
+    margin-right: 15px;
+    font-size: 1.4em;
+    margin-top: 20px;
+}
+
+.entete i, .entete h2{
+    margin-bottom: 0;
+}
+
+#premiereFormation{
+    display: flex;
+}
+#deuxiemeFormation{
+    display: flex;
+}
+#premiereExp{
+    display: flex;
+}
+#deuxiemeExp{
+    display: flex;
+}
+#troisiemeExp{
+    display: flex;
+}
+.dates{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.dates span{
+    display: flex;
+    flex-direction: row;
+    color: #f44336;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.dates p{
+    margin: 0;
+    width: 150px;
+}
+.dateVille{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+.contenu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.contenu h2, .contenu p{
+    margin: 0;
+    color: #9E9E9E;
+}
+.contenu h2{
+    font-size: 1.2em;
+}
+.contenu a{
+    text-decoration: none;
+    color: #9E9E9E;
+}
+
 
