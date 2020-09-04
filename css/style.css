@@ -270,9 +270,97 @@ aside{
         .contenu{
             margin-left: 150px;
         }
+        .contenu.reco{
+            margin-left: 100px;
+        }
 
 }
 
+/* ----------- "PC" ----------- */
+
+@media only screen 
+and (min-device-width: 1200px){
+    body{
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: blanchedalmond;
+        justify-content: center;
+    }
+    aside{
+        width: 300px;
+        font-size: 1.2em;
+    }
+    main{
+        font-size: 1.2em;
+        width: 800px;
+    }
+    footer{
+        font-size: 1.2em;
+    }
+    #partieDroite{
+        background-color: white;
+    }
+    #profil{
+        height: 300px;
+        align-content: center;
+        display: flex;
+        align-content: center;
+        margin-top: 30px;
+    }
+    #profil img{
+        border-radius: 100px;
+        height: 216px;
+        width: 216px;
+        margin-top: 35px;
+    }
+    #apropos{
+        height: 600px;
+    }
+    #titre{
+        flex-direction: column;
+        margin-left: 50px;
+        margin-top: 90px;
+        margin-bottom: 125px;
+    }
+    #titre h1{
+        font-size: 3rem;
+    }
+    #premiereFormation{
+        margin-top: 70px;
+    }
+    #deuxiemeFormation{
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    #premiereExp{
+        margin-top: 40px;
+    }
+    #deuxiemeExp{
+        margin-top: 40px;
+    }
+    #troisiemeExp{
+        margin-top: 40px;
+    }
+    .dates{
+        margin-left: 50px;
+        align-items: initial;
+    }
+    .dates span{
+        margin-top: 5px;
+        font-size: .8em;
+    }
+    .contenu{
+        margin-left: 100px;
+        max-width: 400px;
+    }
+    #recoContainer{
+        display: flex;
+    }
+    .contenu.reco{
+        margin-left: 70px;
+    }
+
+}
 
 
 
