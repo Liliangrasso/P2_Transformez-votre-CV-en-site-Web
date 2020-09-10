@@ -50,7 +50,7 @@ aside{
     justify-content: center;
 }
 
-#loisir i{
+.cercle i{
     color: white;
     font-size: 25px;
     margin-left: 30px;
@@ -283,7 +283,7 @@ and (min-device-width: 1200px){
     body{
         display: flex;
         flex-wrap: nowrap;
-        background-color: blanchedalmond;
+        background-color: #778899;
         justify-content: center;
     }
     aside{
